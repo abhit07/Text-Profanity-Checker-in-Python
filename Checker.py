@@ -1,7 +1,7 @@
 import urllib
 
 def read_text():
-	quotes=open("C:/Users/Abhi/Desktop/abhi.txt")
+	quotes=open("abhi.txt")
 	contents_of_file=quotes.read()
 	quotes.close()
 	check_profanity(contents_of_file)
